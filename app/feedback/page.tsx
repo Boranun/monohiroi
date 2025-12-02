@@ -8,11 +8,6 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Feedback & Q&A',
-  description: 'Share your feedback, feature requests, and questions about REPO Tracker. Help us improve the tool for the community.',
-};
-
 export default function FeedbackPage() {
   const [feedbacks, setFeedbacks] = useState<Feedback[]>([]);
   const [showForm, setShowForm] = useState(false);

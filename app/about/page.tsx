@@ -1,10 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: '免責事項・著作権について | About & Terms',
-  description: 'Monohiroiの免責事項、著作権、プライバシーポリシーについて。Terms, copyright, and privacy policy for Monohiroi.',
-};
 
 export default function AboutPage() {
   return (
